@@ -4,7 +4,7 @@
     "browser": true
   },
   "extends": ["airbnb", "prettier", "prettier/react"],
-  "plugins": ["import", "jsx-a11y", "react", "react-hooks"],
+  "plugins": ["import", "jsx-a11y", "react", "react-hooks", "babel"],
   "rules": {
     "strict": 0
   }
