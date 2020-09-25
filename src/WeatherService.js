@@ -1,5 +1,5 @@
 const apiUrl = (cityName) =>
-  `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=be2fe38af5a1cf26ba0148e91402dfb6`;
+  `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=be2fe38af5a1cf26ba0148e91402dfb6`;
 
 class WeatherService {
   constructor(server) {
